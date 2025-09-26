@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <link rel="icon" href="assets/favicon.png"/>
+        <title>Your Name</title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    </head>
+    <body class="bg-gray text-light">
+        <!-- Navbar -->
+        <nav class="navbar navbar-light bg-light container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-house"></i> Home
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+                <i class="navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-options">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">
+                            <i class="bi bi-code-slash"></i> Code
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            <i class="bi bi-chat-dots"></i> Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="bi bi-person"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <i class="bi bi-envelope"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Coding Projects Portfolio -->
+        <div class="container">
+            <h1 class="display-1 mt-4">
+                <i class="bi bi-code-slash"></i> Code
+            </h1>
+            <hr>
+
+            <!-- Start Card Group -->
+            <div class="card-group gap-2">
+                <!-- START: Card 1 -->
+                <div class="card bg-dark text-center">
+                    <!-- Card Header -->
+                    <div class="card-header">
+                        <img class="img-thumbnail" src="assets/app1.png">
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Forecase App</h3>
+                        <p class="card-text">
+                            A simple weather app that fetches and displays the current weather conditions for a given city.
+                        </p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <small class="text-muted">Java, GUI Development</small>
+                        <button class="btn btn-outline-light btn-secondary float-end"
+                        onclick="window.location.href='https://github.com/chew-Lo/ForecastApp'">
+                        See More</button>
+                    </div>
+                </div>
+                <!-- END: Card 1 -->
+
+                <!-- START: Card 2 -->
+                <div class="card bg-dark text-center">
+                    <!-- Card Header -->
+                    <div class="card-header">
+                        <img class="img-thumbnail" src="assets/game1.png">
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h3 class="card-title">TCP Combat Game</h3>
+                        <p class="card-text">
+                            A multiplayer turn-based combat game using TCP
+                            socket programming to handle real-time player interactions.
+                            Implemented server-client architecture. Features include
+                            character selection, skill systems and RNG battle mechanics
+                        </p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <small class="text-muted">Python, Sockets</small>
+                        <button class="btn btn-outline-light btn-secondary float-end"
+                        onclick="window.location.href='https://github.com/chew-Lo/TCP-Turn-Based-Combat'"
+                        >See More</button>
+                    </div>
+                </div>
+                <!-- END: Card 2-->
+
+                <!-- START: Card 3 -->
+                <div class="card bg-dark text-center">
+                    <!-- Card Header -->
+                    <div class="card-header">
+                        <img class="img-thumbnail" src="assets/adventure.png">
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Triple Adventure Game</h3>
+                        <p class="card-text">
+                            Triple Adventure is an immersive text-based adventure game that transports players into a rich fantasy world. 
+                            Choose your destiny as a valiant Knight ⚔️, skilled Archer 🏹, or mystical Wizard 🧙‍♂️, each offering unique gameplay experiences, challenges, and storylines
+                        </p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <small class="text-muted"> html, css, javascript </small>
+                        <button class="btn btn-outline-light btn-secondary float-end"
+                        onclick="window.location.href='https://github.com/Enrikkk/Adv_Web_Apps_Project1_HTML-CSS-Game'"
+                        >See More</button>
+                    </div>
+                </div>
+                <!-- END: Card 3-->
+
+                <!-- START: Card 4 -->
+                <div class="card bg-dark text-center">
+                    <!-- Card Header -->
+                    <div class="card-header">
+                        <img class="img-thumbnail" src="assets/game2.png">
+                    </div>
+                    <!-- Card Body -->
+                    <div class="card-body">
+                        <h3 class="card-title">Zero To Hero</h3>
+                        <p class="card-text">
+                            A 2D autobattle game developed in Godot where players can choose their hero 
+                            and watch them battle against waves of enemies.
+                        </p>
+                    </div>
+                    <!-- Card Footer -->
+                    <div class="card-footer">
+                        <small class="text-muted"> Godot </small>
+                        <button class="btn btn-outline-light btn-secondary float-end">See More</button>
+                    </div>
+                </div>
+                <!-- END: Card 4-->
+                
+             </div>
+        <!-- END: Card Group -->
+        </div>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

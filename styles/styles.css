@@ -1,0 +1,64 @@
+.bg-beige{
+    background-color: #d2b48c;
+}
+.bg-Dbeige{
+    background-color: #AC9362;
+}
+.bg-Lbeige{
+    background-color: #e8d5b7 ;
+}
+.bg-gray{
+    background-color: #2d2d2d ;
+}
+.bg-DarkGray{
+    background-color: #2b2b2b ;
+}
+.bg-Lgray{
+    background-color: #3e3e3e ;
+}
+.Title{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    color: white; 
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.Gisha{
+    font-family: 'Gisha', sans-serif;
+}
+.book {
+    background: #f5f5dc;
+    width: 700px;
+    padding: 60px 80px;
+    border-radius: 15px;
+    color: #2c2c2c;
+    box-shadow: 
+        0 0 30px rgba(245, 245, 220, 0.3),
+        inset 20px 0 50px rgba(0,0,0,0.1);
+    position: relative;
+    line-height: 1.8;
+}
+.book::before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(0,0,0,0.1);
+}
+.book-body {
+    background: black;
+    margin: 0;
+    padding: 50px;
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.center {
+    text-align: center;
+    margin:auto;
+}
