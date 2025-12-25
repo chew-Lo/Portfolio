@@ -1,5 +1,7 @@
 # Kyle Lofredo - Portfolio Website 💻
 
+Live URL: <https://chew-lo.github.io/Portfolio/>
+
 Personal portfolio showcasing my projects and skills as a Computer Science student.
 
 ## About 👨‍💻
